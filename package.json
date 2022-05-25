@@ -2,10 +2,12 @@
   "name": "consulta-cep",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://cauegraciolip.github.io/consulta-cep/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
@@ -19,6 +21,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "gh-pages": "^4.0.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
   }
